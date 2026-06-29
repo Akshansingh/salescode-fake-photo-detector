@@ -1,0 +1,37 @@
+SALES CODE AI ASSIGNMENT - RUN STEPS
+
+1. Open terminal inside this folder:
+   cd salescode_submission_with_your_screen_images
+
+2. Install libraries:
+   pip install -r requirements.txt
+
+3. Test prediction on one image:
+   python predict.py real/real_001.jpg
+   python predict.py screen/screen_001.jpg
+
+4. IMPORTANT: Optional: replace/add more phone images:
+   - Put real object photos inside real/
+   - Put screen/printout photos inside screen/
+   Use at least 50 real and 50 screen images.
+
+5. Train on your collected data:
+   python train.py --data .
+
+6. Evaluate:
+   python evaluate.py --data .
+
+7. Copy the accuracy and latency values into APPROACH_NOTE.md.
+
+8. Optional live demo:
+   streamlit run app.py
+
+9. Upload to GitHub:
+   Upload predict.py, train.py, evaluate.py, app.py, README.md,
+   APPROACH_NOTE.md, requirements.txt, recapture_model.json, and sample images.
+
+10. Submit:
+   Paste your GitHub repository link in the Google Sheet before Wednesday 1 July, 11:00 AM.
+
+
+Note: This version is compressed under 20 MB for easy upload. Images are resized copies of the training photos.
