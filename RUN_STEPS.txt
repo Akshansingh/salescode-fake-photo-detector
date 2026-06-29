@@ -1,4 +1,4 @@
-SALES CODE AI ASSIGNMENT - RUN STEPS
+
 
 1. Open terminal inside this folder:
    cd salescode_submission_with_your_screen_images
