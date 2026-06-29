@@ -8,13 +8,11 @@ The method is intentionally small and fast. It does not use a heavy cloud model 
 
 ## Results
 
-Validation accuracy on my collected dataset: `100.00%` on the local evaluation split used by `evaluate.py`
-
-Average latency: `109.15 ms/image` on laptop CPU
-
-P95 latency: `167.83 ms/image`
-
-Cost per image: approximately `₹0 / $0` when run on-device, because no cloud API is required.
+Cross-validation accuracy: 96.00%
+Evaluation accuracy: 100.00% on collected dataset
+Average latency: 10.24 ms/image on MacBook Air CPU
+P95 latency: 12.08 ms/image
+Cost per image: ₹0 / $0 because it runs on-device
 
 ## Cut-off Score
 
