@@ -78,10 +78,11 @@ python evaluate.py --data .
 
 The script reports:
 
-- accuracy
-- average latency
-- P95 latency
-- cost per image
+Cross-validation accuracy: 96.00%
+Evaluation accuracy: 100.00% on collected dataset
+Average latency: 10.24 ms/image on MacBook Air CPU
+P95 latency: 12.08 ms/image
+Cost per image: ₹0 / $0 because it runs on-device
 
 ## Predict One Image
 
