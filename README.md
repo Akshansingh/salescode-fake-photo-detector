@@ -95,7 +95,7 @@ Example:
 python predict.py screen/screen_001.jpg
 ```
 
-## Optional Live Demo
+## Live Demo
 
 ```bash
 streamlit run app.py
